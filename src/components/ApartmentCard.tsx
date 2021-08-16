@@ -24,6 +24,7 @@ const Figure = styled.figure`
   max-width: 400px;
   background: ${p => p.theme.reverseColor};
   border-radius: 10px;
+  overflow: hidden;
 `;
 
 const Figcaption = styled.figcaption`

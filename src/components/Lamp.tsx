@@ -23,8 +23,8 @@ export const Lamp = () => {
 
 const StyledLamp = styled.div<{color?: string}>`
   position: fixed;
-  top: 30px;
-  left: 30px;
+  top: 10px;
+  left: 10px;
   color: ${p => p.color || Colors.thirdColor};
   cursor: pointer;
 
