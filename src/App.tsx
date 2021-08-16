@@ -25,18 +25,21 @@ export const App = (): JSX.Element | null => {
   }, []);
 
   useEffect(() => {
-    MockDatabase.getApartments()
-      .then(data => {
-        dispatch(setFetching(false));
+    (async () => {
+      try {
+        const data = await MockDatabase.getApartments();
         dispatch(setApartments(data as ApartmentData[]));
-      })
-      .catch(err => {
-        throw new Error(err);
-      });
+        dispatch(setFetching(false));
+      } catch (error) {
+        throw new Error(error);
+      } finally {
+        dispatch(setFetching(false));
+      }
+    })();
   }, []);
 
   if (fetching) {
-    return null;
+    return <Loader />;
   }
 
   return (

@@ -35,7 +35,7 @@ export default class MockDatabase {
       id: 5,
       price: 18000,
       square: 31.8,
-      img: 'https://sochi.com/upload/iblock/c7b/2a236112dc4a786455bfa0296a98bd61.jpg'
+      img: 'https://andornn.ru/upload/iblock/cf1/showroom_-%2815%29.jpg'
     },
     {
       id: 6,
