@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/apartment_card/static/js/main.c0587783.chunk.js",
-    "main.js.map": "/apartment_card/static/js/main.c0587783.chunk.js.map",
-    "runtime-main.js": "/apartment_card/static/js/runtime-main.b8dd904d.js",
-    "runtime-main.js.map": "/apartment_card/static/js/runtime-main.b8dd904d.js.map",
+    "main.js": "/apartment_card/static/js/main.d041ab2d.chunk.js",
+    "main.js.map": "/apartment_card/static/js/main.d041ab2d.chunk.js.map",
+    "runtime-main.js": "/apartment_card/static/js/runtime-main.3df95356.js",
+    "runtime-main.js.map": "/apartment_card/static/js/runtime-main.3df95356.js.map",
     "static/js/2.5e438c89.chunk.js": "/apartment_card/static/js/2.5e438c89.chunk.js",
     "static/js/2.5e438c89.chunk.js.map": "/apartment_card/static/js/2.5e438c89.chunk.js.map",
-    "static/js/3.47bc6e85.chunk.js": "/apartment_card/static/js/3.47bc6e85.chunk.js",
-    "static/js/3.47bc6e85.chunk.js.map": "/apartment_card/static/js/3.47bc6e85.chunk.js.map",
+    "static/js/3.49ebd104.chunk.js": "/apartment_card/static/js/3.49ebd104.chunk.js",
+    "static/js/3.49ebd104.chunk.js.map": "/apartment_card/static/js/3.49ebd104.chunk.js.map",
     "index.html": "/apartment_card/index.html",
     "static/js/2.5e438c89.chunk.js.LICENSE.txt": "/apartment_card/static/js/2.5e438c89.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b8dd904d.js",
+    "static/js/runtime-main.3df95356.js",
     "static/js/2.5e438c89.chunk.js",
-    "static/js/main.c0587783.chunk.js"
+    "static/js/main.d041ab2d.chunk.js"
   ]
 }
