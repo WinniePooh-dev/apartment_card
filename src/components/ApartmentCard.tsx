@@ -13,7 +13,7 @@ export const ApartmentCard = ({price, square, img}: ApartmentData) => {
         <Span>{price}&#8381;</Span>
         <Span>{square}&#13217;</Span>
         <StyledHeart like={like} onClick={() => setLike(prevState => !prevState)}>
-          <Heart />
+          <Heart fill={(!!like && Colors.activeColor) || undefined} />
         </StyledHeart>
       </Figcaption>
     </Figure>

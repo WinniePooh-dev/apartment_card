@@ -12,7 +12,7 @@ export interface UI {
 
 const initialState: UI = {
   fetching: true,
-  theme: UITheme.Dark
+  theme: UITheme.Light
 };
 
 export const SET_FETCHING = 'SET_FETCHING';
